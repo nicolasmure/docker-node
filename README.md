@@ -2,6 +2,8 @@
 
 A NodeJS Docker image with some additions :
 
+- `bash` : In order to run shell scripts using `/bin/bash` instead of `/bin/sh`
+- `curl`
 - `ca-certificates` : Install `ca-certificates` package to fix issues during
 [Circle CI's builds](https://support.circleci.com/hc/en-us/articles/360016505753-Resolve-Certificate-Signed-By-Unknown-Authority-error-in-Alpine-images)
 
