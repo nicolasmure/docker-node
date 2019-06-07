@@ -6,6 +6,11 @@ A NodeJS Docker image with some additions :
 - `curl`
 - `ca-certificates` : Install `ca-certificates` package to fix issues during
 [Circle CI's builds](https://support.circleci.com/hc/en-us/articles/360016505753-Resolve-Certificate-Signed-By-Unknown-Authority-error-in-Alpine-images)
+- `chromium`
+    - `nss`
+    - `freetype`
+    - `harfbuzz`
+    - `ttf-freefont`
 
 This project keeps the same structure than the
 [docker-node](https://github.com/nodejs/docker-node)
